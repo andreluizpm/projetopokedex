@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--titulo-->
+    <title>Pokédex</title>
+
+    <link rel="icon" href="favicons/favicon-16x16.png"><!--altera o favicon da pagina-->>
+
+    <link rel="stylesheet" href="css/style.css"><!--importa a pagina de estilo-->
+
+    <script defer src="js/script.js"></script><!--importa o javascript defer e para carregar o javascript depois do html-->
+
+</head>
+
+<body>
+
+    <!--função principal do programa-->
+    <main>
+
+        <!--imagem do pokemon esta no js-->
+        <img src="#" alt="pokemon" class="pokemon_image">
+
+        <!--imagem da pokedex-->
+        <img src="imagem/pokedex.png" alt="pokedex" class="pokedex">
+
+        <!--dados do pokemon-->
+        <h1 class="pokemon_data">
+
+            <span class="pokemon_number">6</span> -
+            <span class="pokemon_name">charizard</span>
+
+        </h1>
+
+        <!--formulario para digitar o pokemon-->
+        <form class="form">
+
+            <!--recebe nome ou numero o required e para impedir de enviar o input vazio-->
+            <input type="search"
+            class="input_search" 
+            placeholder="Name or Number"
+            required
+            />
+
+        </form>
+
+        
+        <div class="buttons">
+
+            <!--cria o botão next e prev porem sem função a função so se da no javascript-->
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
